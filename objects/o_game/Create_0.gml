@@ -1,13 +1,14 @@
-/// @description Deactivate objects
+/// @description Deact. objects and arrays
 
 total_money = 100;
 
 // Hide all blocks
-instance_deactivate_all(true);
-
-// Activate starting build buttons
-instance_activate_object(inst_gold_conveyor_button);
 
 // Activate and hide arrows
-instance_activate_layer("Arrows");
-layer_set_visible("Arrows", false);
+
+// Create arrays
+gold_array = [inst_gold_conveyor.id, inst_gold_seller.id, inst_gold_dropper.id];
+diamond_array = [inst_diamond_conveyor.id, inst_diamond_seller.id, inst_diamond_dropper.id, inst_diamond_upgrader.id];
+ruby_array = [inst_ruby_conveyor.id, inst_ruby_seller.id, inst_ruby_dropper.id, inst_ruby_upgrader.id];
+activeItem = -1;
+doActivate = false;

@@ -1,4 +1,4 @@
 /// @description Variables
 
-left_x = -4;
+left_x = -2;
 left_y = 0;
