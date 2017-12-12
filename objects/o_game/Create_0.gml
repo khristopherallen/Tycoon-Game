@@ -1,14 +1,17 @@
-/// @description Deact. objects and arrays
+/// @description Arrays
 
 total_money = 100;
 
-// Hide all blocks
+// Hide arrows
+layer_set_visible("Arrows", false);
 
-// Activate and hide arrows
 
-// Create arrays
-gold_array = [inst_gold_conveyor.id, inst_gold_seller.id, inst_gold_dropper.id];
-diamond_array = [inst_diamond_conveyor.id, inst_diamond_seller.id, inst_diamond_dropper.id, inst_diamond_upgrader.id];
-ruby_array = [inst_ruby_conveyor.id, inst_ruby_seller.id, inst_ruby_dropper.id, inst_ruby_upgrader.id];
-activeItem = -1;
-doActivate = false;
+gold_array = [inst_gold_conveyor, inst_gold_seller, inst_gold_dropper];
+gold_cost_array = [50, 25, 25];
+
+diamond_array = [inst_diamond_conveyor, inst_diamond_seller, inst_diamond_dropper, inst_diamond_upgrader];
+ruby_array = [inst_ruby_conveyor, inst_ruby_seller, inst_ruby_dropper, inst_ruby_upgrader];
+active_array = 0;
+doActivate = true;
+
+alarm[0] =1;

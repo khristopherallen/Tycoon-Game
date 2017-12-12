@@ -1,13 +1,9 @@
 /// @description Draw correct sprite
 
 switch(state){
-	case 0:
-	//draw nothing
 	case 1:
-	//start alarm
+	//draw button
 		draw_sprite(s_build_button, 0, x, y);
-		break;
-	case 2:
 		break;
 	case 3:
 	//draw object

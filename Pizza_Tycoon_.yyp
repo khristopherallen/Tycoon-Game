@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0d82120d-84a7-42a4-baac-060781dc4fb4",
+            "Value": {
+                "id": "cc9f3c21-e6f6-43f0-9f8b-dcc365e728da",
+                "resourcePath": "objects\\o_gold_controller\\o_gold_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "11ebdc28-2824-43e6-9e58-e42e05351089",
             "Value": {
                 "id": "b6d7d5ea-0ea2-42d1-990d-c044408c1807",
@@ -108,6 +116,14 @@
                 "id": "1b3a0e2d-5e64-42cc-adba-7c67046328c7",
                 "resourcePath": "views\\3c8267a8-568b-4975-b36d-605bc4957e3e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "418ca6f3-8621-4db9-8c21-657ed35863cd",
+            "Value": {
+                "id": "bd089254-81d7-4bf7-b402-73a45a6f3c31",
+                "resourcePath": "objects\\o_ruby_controller\\o_ruby_controller.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -219,6 +235,14 @@
             "Value": {
                 "id": "1d6bda84-1887-4c96-b528-74edf8019534",
                 "resourcePath": "objects\\o_turn_right\\o_turn_right.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "976a37bc-e496-4889-83e6-fda338efefd7",
+            "Value": {
+                "id": "f4bb9999-13f2-4027-92ea-781e09ffe83c",
+                "resourcePath": "objects\\o_diamond_controller\\o_diamond_controller.yy",
                 "resourceType": "GMObject"
             }
         },

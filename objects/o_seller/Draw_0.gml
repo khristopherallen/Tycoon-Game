@@ -1,4 +1,4 @@
-/// @description 
+/// @description Draw correct sprite
 
 switch(state){
 	case 1:
@@ -7,9 +7,7 @@ switch(state){
 		break;
 	case 3:
 	//draw object
-		for (i=0; i<spr_repeat; i+=1) {
-			draw_sprite(s_conveyor, image_index, x, y+spr_height*i);
-		}
+		draw_sprite(s_seller, 0, x, y);
 		break;
 	default:
 	//do nothing
